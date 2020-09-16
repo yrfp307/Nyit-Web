@@ -1,21 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
+import Header from './components/Header';
+import Home from './views/Home';
+import Abouts from './views/Abouts';
+import Contact from './views/Contact';
 
 export default function App() {
   return (
-    <React.Fragment>
     <Router>
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/About" component={About} />
+        <Route path="/Abouts" component={Abouts} />
         <Route path="/Contact" component={Contact} />
       </Switch>
     </Router>
-    </React.Fragment>
   );
 }

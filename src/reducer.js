@@ -1,5 +1,7 @@
 import React from 'react';
-import SelfPhoto from './assets/mikimosImage.jpg'
+import SelfPhoto from './assets/mikimosImage.jpg';
+import FamPhoto from './assets/mikiandfamilyImage.jpg';
+import FriendsPhoto from './assets/mikiandfriendsImage.jpg';
 
 export const initialState = {
     abouts : [
@@ -11,15 +13,15 @@ export const initialState = {
         },
         {
             id: 2,
-            image: SelfPhoto,
+            image: FamPhoto,
             title: 'My Family',
-            text: 'This card has supporting text below as a natural lead-in to additional content',
+            text: 'This card has supporting text below as a natural lead-in to additional content.',
         },
         {
             id: 3,
-            image: SelfPhoto,
+            image: FriendsPhoto,
             title: 'My Friends',
-            text: 'This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.', 
+            text: 'This is a wider card with supporting text below as a natural lead-in to additional content.', 
         },
     ]
 }

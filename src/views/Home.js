@@ -7,9 +7,10 @@ const Styles = styled.div`
   font-size: 1.5em;
   position: center;
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   max-width: 100vw;
+  max-height: 100vh;
 }`;
 
 export default function Home () {

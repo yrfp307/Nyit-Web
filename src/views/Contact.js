@@ -7,12 +7,14 @@ const Styles = styled.div`
 .h2 {
   font-size: 1em;
   margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
 },
 .form-group .button {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 100vw;
+  max-height: 100vh;
 }`;
 
 export default function Contact () {
